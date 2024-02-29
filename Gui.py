@@ -139,5 +139,6 @@ class Application(tk.Frame):
         self.result_label.configure(text="")
 
 root = tk.Tk()
+
 app = Application(master=root)
 app.mainloop()
